@@ -2,18 +2,24 @@
 
 # Train the agent on paper_map (main experiment)
 
+```bash
 python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/paper_map.pkl --map paper_map
+```
 
 # Visualize the trained agent
 
+```bash
 python3 main.py --mode visualize --load saved/paper_map.pkl --map paper_map
+```
 
 # Other example commands
 
+```bash
 python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/simple_map4.pkl --map simple_map4
 python3 main.py --mode visualize --load saved/simple_map4.pkl --map simple_map4
 python3 main.py --mode train --phase1-episodes 1000 --phase2-episodes 1000 --save saved/q_values.pkl --map team_map
 python3 main.py --mode visualize --load saved/q_values_simple_map.pkl --map simple_map --delay 200
+```
 
 # Two-Timescale Goal-Based IQL in a Custom Grid Environment
 
