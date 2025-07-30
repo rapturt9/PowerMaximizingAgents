@@ -4,6 +4,16 @@
 
 ```bash
 python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/paper_map.pkl --map paper_map
+
+python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/paper_map_12.pkl --map paper_map --seed 12
+
+python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/paper_map_22.pkl --map paper_map --seed 22
+
+python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/paper_map_32.pkl --map paper_map --seed 32
+
+python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/paper_map_42.pkl --map paper_map --seed 42
+
+python3 main.py --mode train --phase1-episodes 10000 --phase2-episodes 10000 --save saved/paper_map_52.pkl --map paper_map --seed 52
 ```
 
 # Visualize the trained agent
